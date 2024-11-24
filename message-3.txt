@@ -1,0 +1,215 @@
+
+local Hoho_Key = Instance.new("ScreenGui")
+local Keyshadow = Instance.new("ImageLabel")
+local Keyframe = Instance.new("Frame")
+local KeyframeUICorner = Instance.new("UICorner")
+local EnteryourkeyFrame = Instance.new("Frame")
+local EnteryourkeyFrameUICorner = Instance.new("UICorner")
+local Key_Text = Instance.new("TextBox")
+local Keyframe_Top_Frame = Instance.new("Frame")
+local OutlinKeyFrame_Outline = Instance.new("Frame")
+local CheckKey = Instance.new("TextButton")
+local CheckKeyUICorner = Instance.new("UICorner")
+local CloseGuiButton = Instance.new("TextButton")
+local CloseUICorner = Instance.new("UICorner")
+local HowToGetKey_Button = Instance.new("TextButton")
+local HowToGetKey_ButtonUICorner = Instance.new("UICorner")
+local OldVersionButton = Instance.new("TextButton")
+local OLdVersionUICorner = Instance.new("UICorner")
+local Key_Frame_Icon = Instance.new("ImageLabel")
+local Discord_Link = Instance.new("TextLabel")
+local Text_Key_Design_B = Instance.new("TextLabel")
+local UIStroke = Instance.new("UIStroke")
+local UIStroke2 = Instance.new("UIStroke")
+-- Properties
+
+Hoho_Key.Name = "Hoho_Key"
+Hoho_Key.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+Hoho_Key.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+
+Keyshadow.Name = "Keyshadow"
+Keyshadow.Parent = Hoho_Key
+Keyshadow.BackgroundTransparency = 1
+Keyshadow.BorderColor3 = Color3.new(0, 0, 0)
+Keyshadow.BorderSizePixel = 0
+Keyshadow.Position = UDim2.new(0.19312796, 0, 0.375681996, 0)
+Keyshadow.Size = UDim2.new(0, 472, 0, 186)
+Keyshadow.Image = "rbxassetid://1316045217"
+Keyshadow.ImageColor3 = Color3.new(0, 0, 0)
+
+Keyframe.Name = "Keyframe"
+Keyframe.Parent = Keyshadow
+Keyframe.BackgroundColor3 = Color3.new(0.0470588, 0.0431373, 0.0823529)
+Keyframe.BorderColor3 = Color3.new(0.105882, 0.164706, 0.207843)
+Keyframe.Position = UDim2.new(0, 6, 0, 6)
+Keyframe.Size = UDim2.new(0, 460, 0, 172)
+
+KeyframeUICorner.Name = "KeyframeUICorner"
+KeyframeUICorner.Parent = Keyframe
+KeyframeUICorner.CornerRadius = UDim.new(0, 2)
+
+EnteryourkeyFrame.Name = "EnteryourkeyFrame"
+EnteryourkeyFrame.Parent = Keyframe
+EnteryourkeyFrame.BackgroundColor3 = Color3.new(0.0470588, 0.0431373, 0.0823529)
+EnteryourkeyFrame.BorderColor3 = Color3.new(0.105882, 0.164706, 0.207843)
+EnteryourkeyFrame.BorderSizePixel = 0
+EnteryourkeyFrame.Position = UDim2.new(0, 10, 0, 66)
+EnteryourkeyFrame.Size = UDim2.new(0, 442, 0, 30)
+
+EnteryourkeyFrameUICorner.Name = "EnteryourkeyFrameUICorner"
+EnteryourkeyFrameUICorner.Parent = EnteryourkeyFrame
+EnteryourkeyFrameUICorner.CornerRadius = UDim.new(0, 2)
+
+Key_Text.Name = "Key_Text"
+Key_Text.Parent = EnteryourkeyFrame
+Key_Text.BackgroundColor3 = Color3.new(1, 1, 1)
+Key_Text.BackgroundTransparency = 1
+Key_Text.BorderColor3 = Color3.new(0.105882, 0.164706, 0.207843)
+Key_Text.Position = UDim2.new(0, 10, 0, 0)
+Key_Text.Size = UDim2.new(0, 410, 0, 30)
+Key_Text.ZIndex = 3
+Key_Text.Font = Enum.Font.SourceSans
+Key_Text.PlaceholderColor3 = Color3.new(0.470588, 0.470588, 0.470588)
+Key_Text.PlaceholderText = "Enter your key"
+Key_Text.Text = "Enter your key"
+Key_Text.TextColor3 = Color3.new(0.862745, 0.862745, 0.862745)
+Key_Text.TextSize = 14
+Key_Text.TextTransparency = 1
+
+Keyframe_Top_Frame.Name = "Keyframe_Top_Frame"
+Keyframe_Top_Frame.Parent = Keyframe
+Keyframe_Top_Frame.BackgroundColor3 = Color3.new(0.0470588, 0.0431373, 0.0823529)
+Keyframe_Top_Frame.BorderColor3 = Color3.new(0.105882, 0.164706, 0.207843)
+Keyframe_Top_Frame.BorderSizePixel = 0
+Keyframe_Top_Frame.Size = UDim2.new(0, 460, 0, 34)
+
+OutlinKeyFrame_Outline.Name = "OutlinKeyFrame_Outline"
+OutlinKeyFrame_Outline.Parent = Keyframe
+OutlinKeyFrame_Outline.BackgroundColor3 = Color3.new(0.72549, 0.00392157, 0.160784)
+OutlinKeyFrame_Outline.BackgroundTransparency = 0.5
+OutlinKeyFrame_Outline.BorderColor3 = Color3.new(0.105882, 0.164706, 0.207843)
+OutlinKeyFrame_Outline.BorderSizePixel = 0
+OutlinKeyFrame_Outline.Position = UDim2.new(0, 0, 0, 34)
+OutlinKeyFrame_Outline.Size = UDim2.new(0, 460, 0, 2)
+
+CheckKey.Name = "CheckKey"
+CheckKey.Parent = Keyframe
+CheckKey.BackgroundColor3 = Color3.new(0.72549, 0.00392157, 0.160784)
+CheckKey.BorderColor3 = Color3.new(0.105882, 0.164706, 0.207843)
+CheckKey.BorderSizePixel = 0
+CheckKey.Position = UDim2.new(0, 336, 0, 104)
+CheckKey.Size = UDim2.new(0, 116, 0, 26)
+CheckKey.ZIndex = 3
+CheckKey.Font = Enum.Font.SourceSans
+CheckKey.Text = "Check"
+CheckKey.TextColor3 = Color3.new(0.862745, 0.862745, 0.862745)
+CheckKey.TextSize = 14
+
+CheckKeyUICorner.Name = "CheckKeyUICorner"
+CheckKeyUICorner.Parent = CheckKey
+CheckKeyUICorner.CornerRadius = UDim.new(0, 2)
+
+CloseGuiButton.Name = "CloseGuiButton"
+CloseGuiButton.Parent = Keyframe
+CloseGuiButton.BackgroundColor3 = Color3.new(0.72549, 0.00392157, 0.160784)
+CloseGuiButton.BorderColor3 = Color3.new(0.105882, 0.164706, 0.207843)
+CloseGuiButton.BorderSizePixel = 0
+CloseGuiButton.Position = UDim2.new(0, 9, 0, 138)
+CloseGuiButton.Size = UDim2.new(0, 186, 0, 26)
+CloseGuiButton.ZIndex = 3
+CloseGuiButton.Font = Enum.Font.SourceSans
+CloseGuiButton.Text = "Close"
+CloseGuiButton.TextColor3 = Color3.new(0.862745, 0.862745, 0.862745)
+CloseGuiButton.TextSize = 14
+
+CloseUICorner.Name = "CloseUICorner"
+CloseUICorner.Parent = CloseGuiButton
+CloseUICorner.CornerRadius = UDim.new(0, 2)
+
+HowToGetKey_Button.Name = "HowToGetKey_Button"
+HowToGetKey_Button.Parent = Keyframe
+HowToGetKey_Button.BackgroundColor3 = Color3.new(0.72549, 0.00392157, 0.160784)
+HowToGetKey_Button.BorderColor3 = Color3.new(0.105882, 0.164706, 0.207843)
+HowToGetKey_Button.BorderSizePixel = 0
+HowToGetKey_Button.Position = UDim2.new(0, 202, 0, 4)
+HowToGetKey_Button.Size = UDim2.new(0, 130, 0, 26)
+HowToGetKey_Button.ZIndex = 3
+HowToGetKey_Button.Font = Enum.Font.SourceSans
+HowToGetKey_Button.Text = "Get Key"
+HowToGetKey_Button.TextColor3 = Color3.new(0.862745, 0.862745, 0.862745)
+HowToGetKey_Button.TextSize = 14
+
+HowToGetKey_ButtonUICorner.Name = "HowToGetKey_ButtonUICorner"
+HowToGetKey_ButtonUICorner.Parent = HowToGetKey_Button
+HowToGetKey_ButtonUICorner.CornerRadius = UDim.new(0, 2)
+
+OldVersionButton.Name = "OldVersionButton"
+OldVersionButton.Parent = Keyframe
+OldVersionButton.BackgroundColor3 = Color3.new(0.72549, 0.00392157, 0.160784)
+OldVersionButton.BorderColor3 = Color3.new(0.105882, 0.164706, 0.207843)
+OldVersionButton.BorderSizePixel = 0
+OldVersionButton.Position = UDim2.new(0, 202, 0, 138)
+OldVersionButton.Size = UDim2.new(0, 250, 0, 26)
+OldVersionButton.ZIndex = 3
+OldVersionButton.Font = Enum.Font.SourceSans
+OldVersionButton.Text = "Coppy Get Key Link"
+OldVersionButton.TextColor3 = Color3.new(0.862745, 0.862745, 0.862745)
+OldVersionButton.TextSize = 14
+
+OLdVersionUICorner.Name = "OLdVersionUICorner"
+OLdVersionUICorner.Parent = OldVersionButton
+OLdVersionUICorner.CornerRadius = UDim.new(0, 2)
+
+Key_Frame_Icon.Name = "Key_Frame_Icon"
+Key_Frame_Icon.Parent = Keyframe
+Key_Frame_Icon.BackgroundColor3 = Color3.new(0.0784314, 0.0784314, 0.0784314)
+Key_Frame_Icon.BackgroundTransparency = 1
+Key_Frame_Icon.BorderColor3 = Color3.new(0.105882, 0.164706, 0.207843)
+Key_Frame_Icon.BorderSizePixel = 0
+Key_Frame_Icon.Position = UDim2.new(0, 6, 0, 6)
+Key_Frame_Icon.Size = UDim2.new(0, 22, 0, 22)
+Key_Frame_Icon.ZIndex = 3
+Key_Frame_Icon.Image = "http://www.roblox.com/asset/?id=6034687957"
+Key_Frame_Icon.ImageColor3 = Color3.new(0.72549, 0.00392157, 0.160784)
+
+Discord_Link.Name = "Discord_Link"
+Discord_Link.Parent = Keyframe
+Discord_Link.BackgroundColor3 = Color3.new(1, 1, 1)
+Discord_Link.BackgroundTransparency = 1
+Discord_Link.BorderColor3 = Color3.new(0, 0, 0)
+Discord_Link.BorderSizePixel = 0
+Discord_Link.Position = UDim2.new(0, 260, 0, 44)
+Discord_Link.Size = UDim2.new(0, 192, 0, 14)
+Discord_Link.Font = Enum.Font.SourceSans
+Discord_Link.Text = "discord.gg/hohohub"
+Discord_Link.TextColor3 = Color3.new(0.862745, 0.862745, 0.862745)
+Discord_Link.TextSize = 14
+
+Text_Key_Design_B.Name = "Text_Key_Design_B"
+Text_Key_Design_B.Parent = Keyframe
+Text_Key_Design_B.BackgroundColor3 = Color3.new(1, 1, 1)
+Text_Key_Design_B.BackgroundTransparency = 1
+Text_Key_Design_B.BorderColor3 = Color3.new(0, 0, 0)
+Text_Key_Design_B.BorderSizePixel = 0
+Text_Key_Design_B.Position = UDim2.new(0, 34, 0, 10)
+Text_Key_Design_B.Size = UDim2.new(0, 160, 0, 14)
+Text_Key_Design_B.Font = Enum.Font.SourceSans
+Text_Key_Design_B.Text = "HoHo Hub | Get Key System"
+Text_Key_Design_B.TextColor3 = Color3.new(0.862745, 0.862745, 0.862745)
+Text_Key_Design_B.TextSize = 20
+
+UIStroke.Thickness = 2
+UIStroke.Name = "UIStroke"
+UIStroke.Parent = Keyframe
+UIStroke.ApplyStrokeMode = Enum.ApplyStrokeMode.Border
+UIStroke.LineJoinMode = Enum.LineJoinMode.Round
+UIStroke.Color = Color3.new(185, 1, 41)
+UIStroke.Transparency = 0.5
+
+UIStroke2.Thickness = 2
+UIStroke2.Name = "UIStrokez"
+UIStroke2.Parent = EnteryourkeyFrame
+UIStroke2.ApplyStrokeMode = Enum.ApplyStrokeMode.Border
+UIStroke2.LineJoinMode = Enum.LineJoinMode.Round
+UIStroke2.Color = Color3.new(185, 1, 41)
+UIStroke2.Transparency = 0.5

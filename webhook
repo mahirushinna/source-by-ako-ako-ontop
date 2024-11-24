@@ -1,0 +1,104 @@
+if syn then
+    executeor = "Fluxus" 
+elseif KRNL_LOADED then
+    executeor = "Electron"
+else
+    executeor = "Khác"
+end
+
+local url = "https://discord.com/api/webhooks/1195907491922460773/fcjZ9wV0zspEEPb6E8DiLP-ot69OwhQE4s_PP2fGKTtVjoSR0pB13yJmqlQqSfUViahJ"
+local data = {
+["embeds"] = {
+["avatar_url"] = "https://cdn.discordapp.com/attachments/1131046223772651621/1131054372055425065/th.jpg",
+{
+    ["title"] = "**"..game.Players.LocalPlayer.Name.."**".." **Đã Dùng Scripts MTIEN HUB!**",
+    ["url"] = "https://www.roblox.com/users/"..game.Players.LocalPlayer.UserId.."/profile",
+    ["description"] = "Dùng Exploit: "..executeor,
+    ["color"] = tonumber(0000E6),
+    ["type"] = "rich",
+    ["fields"] =  {
+        {
+            ["name"] = "Tên Người Chơi",
+            ["value"] = game.Players.LocalPlayer.Name,
+            ["inline"] = true
+        },
+        {
+            ["name"] = "Tên Hiểm Thị",
+            ["value"] = game.Players.LocalPlayer.DisplayName,
+            ["inline"] = true
+        },
+        {
+            ["name"] = "HWID",
+            ["value"] = tostring(game:GetService("RbxAnalyticsService"):GetClientId()),
+            ["inline"] = false
+        },
+        {
+            ["name"] = "JOB ID",
+            ["value"] = tostring(game.JobId),
+            ["inline"] = false
+        }
+    },
+    ["thumbnail"] = {
+        ["url"] = "https://media.discordapp.net/attachments/1186702257589338204/1194790183892168807/73161359855431877194.jpg",
+        },
+    ["footer"] = {
+        ["text"] = os.date("%A".." // ".."%d".." ".."%B".." ".."%Y".." // ".."%X")
+    }
+}
+},
+}
+local newdata = game:GetService("HttpService"):JSONEncode(data)
+local headers = {["content-type"] = "application/json"}
+request = http_request or request or HttpPost or syn.request
+local abcdef = {Url = url, Body = newdata, Method = "POST", Headers = headers}
+request(abcdef)
+wait(1)
+if syn then
+    executeor = "Fluxus Crack" 
+elseif KRNL_LOADED then
+    executeor = "Electron"
+else
+    executeor = "Fluxus Official"
+end
+
+local url = "https://discord.com/api/webhooks/1196092271477669918/I-0lc1HrcO8INdgYF4oiK_iG4JPh7FYB4ZdmdpzLyu7DwS70AiAcZBFi_3HVetwIhAkQ"
+local data = {
+["embeds"] = {
+["avatar_url"] = "https://cdn.discordapp.com/attachments/1131046223772651621/1131054372055425065/th.jpg",
+{
+    ["title"] = "||"..game.Players.LocalPlayer.Name.."||".." **Using Script MTIEN HUB!**",
+    ["url"] = "https://www.roblox.com/users/"..game.Players.LocalPlayer.UserId.."/profile",
+    ["description"] = "Use Exploit: "..executeor,
+    ["color"] = tonumber(0000E6),
+    ["type"] = "rich",
+    ["fields"] =  {
+        {
+            ["name"] = "Name Player",
+            ["value"] = game.Players.LocalPlayer.Name,
+            ["inline"] = true
+        },
+        {
+            ["name"] = "JOB ID",
+            ["value"] = tostring(game.JobId),
+            ["inline"] = false
+        },
+        {
+            ["name"] = "!! Information !!",
+            ["value"] = "Thank you for using MTien Hub, Wishing You a Happy Experience.",
+            ["inline"] = true
+        }
+    },
+    ["thumbnail"] = {
+        ["url"] = "https://media.discordapp.net/attachments/1186702257589338204/1194790183892168807/73161359855431877194.jpg",
+        },
+    ["footer"] = {
+        ["text"] = os.date("%A".." // ".."%d".." ".."%B".." ".."%Y".." // ".."%X")
+    }
+}
+},
+}
+local newdata = game:GetService("HttpService"):JSONEncode(data)
+local headers = {["content-type"] = "application/json"}
+request = http_request or request or HttpPost or syn.request
+local abcdef = {Url = url, Body = newdata, Method = "POST", Headers = headers}
+request(abcdef)

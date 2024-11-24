@@ -1,0 +1,20 @@
+pkg install git
+
+apt install python
+
+git clone https://github.com/radareorg/radare2
+
+pkg install radare2
+
+termux-setup-storage
+
+cd /storage/emulated/0/Download
+
+ls
+
+rabin2 -s libUE4.so >> shadow.txt && mv shadow.txt /storage/emulated/0/Download
+
+
+link i put in description
+
+watch carefully Don't miss anything okay 🙂
